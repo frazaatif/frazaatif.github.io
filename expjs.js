@@ -1,0 +1,1 @@
+alert("My first Web Code, Tried to make it Responsive, Please point out my Mistakes and Bad Practices(Especially CSS)");
