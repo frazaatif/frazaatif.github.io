@@ -75,16 +75,16 @@ a {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-#Blue {
+.Blue {
     color: rgb(72, 133, 237);
 }
-#Yellow {
+.Yellow {
     color: rgb(244, 194, 13);
 }
-#Green {
+.Green {
     color: rgb(60,186,84);
 }
-#Red {
+.Red {
     color: rgb(219, 50, 54);
 }
 
