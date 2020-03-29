@@ -75,19 +75,6 @@ a {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
-.Blue {
-    color: rgb(72, 133, 237);
-}
-.Yellow {
-    color: rgb(244, 194, 13);
-}
-.Green {
-    color: rgb(60,186,84);
-}
-.Red {
-    color: rgb(219, 50, 54);
-}
-
 @media screen and (max-width: 800px) {
     .header-opt {
         height: 5rem;
