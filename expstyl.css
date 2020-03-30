@@ -1,94 +1,39 @@
-a {
-    text-decoration: none;
-    color: black;
+body {    
+    display: flex;
+    flex-direction: column;
+	background-color: rgb(3, 24, 60);
+	width:100%;
 }
-.header-opt {
-    display: block;
-    width: 100%;
-	height: 7rem;
+.Header {
+    text-align:center;
+    height: 12rem;
 }
-.header-opt ul{
-	list-style-type: none;
-	font-family: Arial,sans-serif;
-    font-size: 1rem;
+.Abt {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color:antiquewhite;
+	text-shadow: 0 0px 29px rgb(139, 148, 179); 
 }
-.header-opt li{
-    float: right;
-	display: inline-block;
-	margin-left: 4px;
+.Name h1{
+	text-align:center;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 3rem;
+	color:azure;
 }
-.Logo {
-    font-family: "Product Sans",sans-serif;
-    font-weight: bold;
-    letter-spacing: -0.8rem;
-    font-size: 2.4rem;
-    display: block;
-    width: 100%;
-	height: 5rem;
-    text-align: center;
-	margin-bottom: 1.4rem;
-}
-.Input-bar-box {
-    width: 100%;
+.Intro {
 	text-align: center;
+	font-family: Courier, Monospace;
+	font-weight: bold;
+	color: chartreuse;
 }
-#Input-bar {
-    border-width: 1px;
-    border-color: LightGray;
-    border-radius: 13px;
-    width: 40%;
-	height: 2rem;
-}
-.SearchG {
-    width: 100%;
-    text-align: center;
-}
-.SearchBtn {
-    border-width: 0;
-    border-radius: 4px;
-    color: Gray;
-    height: 33px;
-	margin-top: 15px;
-	margin-left: 5px;
-}
-#Input-bar:hover {
-	box-shadow: 0 1px 5px 0 LightGray;
-}
-#Input-bar:active {
-    box-shadow: 0 1px 1px 1px LightGray;
-}
-.SearchBtn:hover {
-    border-width: 1px;
-    border-color: LightGray;
-    border-radius: 4px;
-    cursor: pointer;
-}
-.SearchBtn:active {
-    border-width: 1px;
-    border-color: LightGray;
-    border-radius: 4px;
-}
-.tip {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 0.8rem;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-@media screen and (max-width: 800px) {
-    .header-opt {
-        height: 5rem;
-    }
-    .header-opt ul{
-        font-size: 0.8rem;
-    }
-    .Logo {
-        font-size: 1.8rem;
-        letter-spacing: -0.5rem;
-        margin-bottom: 0.5rem;
-    }
-    #Input-bar {
-        width: 50%;
-        height: 1.5rem;
-    }
+
+@media screen and (max-width: 400px) {
+	.Header {
+		height: 7rem;
+	}
+	.Name h1 {
+		font-size: 1.6rem;
+	}
 }
