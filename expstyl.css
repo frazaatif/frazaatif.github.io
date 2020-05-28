@@ -3,9 +3,13 @@
 }
 p {
 	font-size: 20px;
+	text-align: center;
+}
+header {
+	background-color: #dfd8d8;
 }
 #board {
-	background-color: #696969;
+	background-color: #dfd8d8;
 	width: 100%;
 }
 .count {
