@@ -50,7 +50,7 @@ function drawBox() {
 
 }
 function clearbox(nowX,nowY) {
-	ctx.fillStyle = "white";
+	ctx.fillStyle = "#696969";
 	ctx.fillRect(nowX,nowY,10,10);
 }
 var id  = window.setInterval(drawBox,100);
