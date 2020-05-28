@@ -1,39 +1,33 @@
-body {    
-    display: flex;
-    flex-direction: column;
-	background-color: rgb(3, 24, 60);
-	width:100%;
+* {
+	border: 0;
 }
-.Header {
-    text-align:center;
-    height: 12rem;
+p {
+	font-size: 20px;
 }
-.Abt {
-	text-decoration: none;
-	font-family: sans-serif;
-	font-weight: bolder;
-	color:antiquewhite;
-	text-shadow: 0 0px 29px rgb(139, 148, 179); 
+#board {
+	background-color: white;
+	width: 100%;
 }
-.Name h1{
-	text-align:center;
-	font-family: sans-serif;
-	font-weight: bolder;
-	font-size: 3rem;
-	color:azure;
+.count {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
 }
-.Intro {
-	text-align: center;
-	font-family: Courier, Monospace;
-	font-weight: bold;
-	color: chartreuse;
+#grn {
+	color: green;
 }
-
-@media screen and (max-width: 400px) {
-	.Header {
-		height: 7rem;
-	}
-	.Name h1 {
-		font-size: 1.6rem;
-	}
+#blu {
+	color: blue;
+}
+#purp {
+	color: purple;
+}
+#yell {
+	color: gold;
+}
+#orng {
+	color: orange;
+}
+#red {
+	color: red;
 }
