@@ -1,4 +1,4 @@
-
+var gcused = 0;
 var numGC = prompt("How many Gold Coins to Use?");
 var greens = 0, blues = 0, purps = 0, yellows = 0, orngs = 0, reds = 0;
 var canvas = document.querySelector("#board");
@@ -7,6 +7,8 @@ function drawBox() {
 	if(numGC < 10) {
 		clearInterval(id);
 	}
+	gcused += 10;
+	document.getElementById("gcused").innerHTML = "Gold Coins Used: " + gcused;
 	var now = Math.floor(Math.random()*100000) + 1;
 	console.log("Work");
 	var nowcolor = "obs";
@@ -16,7 +18,7 @@ function drawBox() {
 		++reds;
 		delay = 4000;
 		document.getElementById("red").innerHTML = reds;
-	}else if(now <= 100) {
+	}else if(now <= 500) {
 		nowcolor = "orange";
 		++orngs;
 		delay = 2000;
@@ -50,7 +52,7 @@ function drawBox() {
 
 }
 function clearbox(nowX,nowY) {
-	ctx.fillStyle = "#696969";
+	ctx.fillStyle = "#dfd8d8";
 	ctx.fillRect(nowX,nowY,10,10);
 }
 var id  = window.setInterval(drawBox,100);
